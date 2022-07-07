@@ -1,16 +1,16 @@
 import './App.css';
-import React from 'react';
-import { ThemeProvider } from './context/ThemeContext';
-import HomePage from './components/HomePage';
-
+import Homepage from './components/Homepage';
+import Header from './components/Header';
 
 function App() {
-
   return (
-    <ThemeProvider>
-      <HomePage />
-    </ThemeProvider>
+    <div className="App">
+      <Header />
+      <Homepage />
+
+    </div>
   );
 }
 
 export default App;
+
