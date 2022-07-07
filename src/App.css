@@ -1,13 +1,13 @@
 .App {
   text-align: center;
+  height: max-content;
 }
 
-table > thead > tr > th {
-color: red;
-cursor: pointer;
+table>thead>tr>th {
+  color: red;
+  cursor: pointer;
 }
 
-table > thead > tr > th:hover {
+table>thead>tr>th:hover {
   color: blue;
-
-  }
+}
