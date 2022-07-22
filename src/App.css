@@ -1,35 +1,13 @@
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+table > thead > tr > th {
+color: red;
+cursor: pointer;
+}
+
+table > thead > tr > th:hover {
+  color: blue;
+
   }
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.page-title {
-    color: red;
-}
-.component-title {
-    color: green;
-}
-
-.tabs {
-  margin: 20px 0px;
-}
